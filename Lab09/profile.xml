@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE student [
+    <!ELEMENT student (name, ID, address, age, class, specialization, school)>
+    <!ELEMENT name (firstname, lastname)>
+]>
+
+<student>
+    <name>
+        <firstname>Huy</firstname>
+        <lastname>Nguyen Van</lastname>
+    </name>
+    <ID>20161846</ID>
+    <address>Hanoi, Vietnam</address>
+    <age>22</age>
+    <class>ICT K61 01</class>
+    <specialization>Information and Communication Technology</specialization>
+    <school>Hanoi University of Science and Technology</school>
+</student>
